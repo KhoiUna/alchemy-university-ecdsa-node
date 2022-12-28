@@ -20,7 +20,7 @@ function Wallet({ address, setAddress, balance, setBalance }) {
       <h1>Pick your wallet</h1>
 
       <label>
-        Wallet address:
+        Wallet address (paste one of the addresses in Test balances):
         <input
           placeholder="Wallet address"
           value={address}
