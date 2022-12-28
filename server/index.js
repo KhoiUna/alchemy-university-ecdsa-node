@@ -11,8 +11,7 @@ const { toHex } = require("ethereum-cryptography/utils");
 
 const PORT = process.env.PORT || 3042;
 
-console.log(path.join(__dirname + "/../client/dist"));
-app.use(express.static(path.join(__dirname + "../client/dist")));
+app.use(express.static(path.join(__dirname + "/../client/dist")));
 app.use(cors());
 app.use(express.json());
 
